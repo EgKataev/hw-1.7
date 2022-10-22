@@ -13,8 +13,8 @@ public class Cycles {
             int x = 1;
 
             while(x <= 10) {
-                int var10001 = x++;
-                System.out.print("" + var10001 + " ");
+                int var = x++;
+                System.out.print("" + var + " ");
             }
 
             System.out.println();

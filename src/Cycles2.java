@@ -11,8 +11,6 @@ public class Cycles2 {
 
         System.out.println("Задание 2");
         {
-            int sum = 15000;
-            int monthNum = 1;
             while (sum <= 12_000_000) {
                 sum *= 1.07;
                 if (monthNum % 6 == 0) {
@@ -21,7 +19,6 @@ public class Cycles2 {
                 monthNum++;
 
                 System.out.println("Задание 3");
-                int sum = 15000;
                 for (int i = 1; i < 9 * 12; i += 6) {
                     int sumBefor = sum;
                     sum *= 1 + 0.07 * 6;
