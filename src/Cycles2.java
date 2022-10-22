@@ -17,6 +17,7 @@ public class Cycles2 {
                     System.out.printf("Месяц %d, сумма %d \n", monthNum, sum);
                 }
                 monthNum++;
+            }
 
                 System.out.println("Задание 3");
                 for (int i = 1; i < 9 * 12; i += 6) {
@@ -33,4 +34,3 @@ public class Cycles2 {
             }
         }
     }
-}
